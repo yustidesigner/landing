@@ -1,0 +1,43 @@
+@use '../abstracts/' as *;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: var(--fs-med);
+  font-weight: 300;
+  color: var(--clr-gray);
+  line-height: 1.3;
+
+  &.noscroll {
+    overflow: hidden;
+  }
+}
+
+.link,
+.link:visited,
+.link:hover {
+  text-decoration: none;
+}
+
+//Spacing
+.spacing {
+  padding: 0 2rem;
+}
+
+.paddingTop {
+  padding-top: 2rem;
+}
+
+.maxWidth {
+  max-width: 768px;
+}

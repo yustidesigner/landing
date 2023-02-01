@@ -1,0 +1,19 @@
+@use '/src/styles/abstracts/' as *;
+
+.footer {
+  &-icons{
+    padding: 8rem 0 ;
+    &__img {
+      width: 85px;
+      fill: var(--clr-primary);
+
+      &:hover {
+        fill: var(--clr-vibrant);
+      }
+
+      @include breakpoint-down('medium') {
+        width: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+// 640px, 1024px, 1400px
+$breakpoints-up: (
+  'medium': '40em',
+  'large': '52em',
+  'xlarge': '95em',
+);
+
+// 414px,  812px, 1366px, 1600px, 1920px
+$breakpoints-down: (
+  'mobile': '25.875em',
+  'small': '50.9em',
+  'medium': '85.5em',
+  'large': '100.2em',
+  'xlarge': '120em',
+);

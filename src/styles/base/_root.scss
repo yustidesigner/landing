@@ -1,0 +1,15 @@
+@use '../abstracts' as *;
+
+:root {
+  @each $color, $value in $colors {
+    --clr-#{$color}: #{$value};
+  }
+
+  @each $size, $value in $type-size {
+    --fs-#{$size}: #{$value};
+  }
+
+  @each $weight, $value in $type-weight {
+    --fw-#{$weight}: #{$value};
+  }
+}

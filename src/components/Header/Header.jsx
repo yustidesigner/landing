@@ -8,7 +8,7 @@ function Header() {
       <nav className="navbar navbar-expand-md">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src="../../assets/logo/logotipo-yustidesigner-04.svg" alt="logo" />
+            <img src="/logo/logotipo-yustidesigner-04.svg" alt="logo" />
           </a>
           <button
             className="navbar-toggler"

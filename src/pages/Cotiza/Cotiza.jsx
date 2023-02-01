@@ -3,6 +3,8 @@ import emailjs from 'emailjs-com'
 import PhoneInput from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
 import Swal from 'sweetalert2'
+import NoMatch from '../NoMatch/NoMatch'
+import './Cotiza.scss'
 
 export default function Cotiza() {
   const [Check, setCheck] = useState(false)
@@ -63,6 +65,7 @@ export default function Cotiza() {
   return (
     <section className="contact container my-3 paddingTop d-flex justify-content-center" id="contact">
       <div className="maxWidth">
+        <NoMatch />
         <form onSubmit={sendEmail}>
           <div className="mb-3">
             <div className="mb-3">

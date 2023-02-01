@@ -1,0 +1,11 @@
+
+.contact {
+
+  &-link {
+    color: var(--clr-primary);
+
+    &:hover {
+      color: var(--clr-vibrant);
+    }
+  }
+}

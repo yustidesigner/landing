@@ -1,0 +1,13 @@
+
+
+.noMatch {
+
+  &__title {
+    font-weight: 200;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    color: var(--clr-gray);
+  }
+}
